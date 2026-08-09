@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class lacos_de_repeticao {
+public class lacos_de_repeticao_while {
 
 
     public static void exercicioteste(){
