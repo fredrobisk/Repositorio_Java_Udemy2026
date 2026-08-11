@@ -4,6 +4,30 @@ import java.util.Scanner;
 
 public class lacos_de_repeticao_FOR{
 
+    public static void exercicio3(){
+        int N;
+        double a,b,c,media;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite quantos casos teremos");
+        N = sc.nextInt();
+
+        for (int i = 0; i <= N; i++) {
+
+            System.out.println("digite o valor do primeiro dado");
+            a = sc.nextDouble();
+            System.out.println("digite o valor do segundo dado");
+            b = sc.nextDouble();
+            System.out.println("digite o valor do terceiro dado");
+            c = sc.nextDouble();
+
+
+            media = (a * 2 + b * 3 +c * 5)/10;
+
+            System.out.printf("%.2f%n",media);
+            }
+        }
+
     public static void exercicio2(){
         int n,i,in_intervalo = 0, out_intervalo = 0,numero;
 
@@ -18,17 +42,17 @@ public class lacos_de_repeticao_FOR{
             if (numero >=10 && numero <=20){
                 in_intervalo++;
             }
-            else if (numero > 20){
-                out_intervalo++;
+            else if(numero < 0){
+                System.out.println("nnumero invalido");
+                break;
             }
-            else if (numero < 10 && numero > 0){
+            else {
                 out_intervalo++;
-            }
-            else  if (numero < 0){
-                System.out.println(" invalido");
             }
         }
 
+        System.out.println("Numeros dentro do intervalo: "+in_intervalo);
+        System.out.println("Numeros fora do intervalo: "+out_intervalo);
     }
 
     public static void exercicio1() {
@@ -61,7 +85,8 @@ public class lacos_de_repeticao_FOR{
 
         //exercicioteste();
         //exercicio1();
-         exercicio2();
+        //exercicio2();
+        //exercicio3();
 
     }
 }
