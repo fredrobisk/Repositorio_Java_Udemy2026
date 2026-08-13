@@ -1,120 +1,118 @@
-# ☕ Ambientação Inicial em Java
+# ☕ Jornada de Estudos em Java
 
-Projeto desenvolvido durante os estudos iniciais de **Java**, com foco na entrada de dados pelo terminal e na realização de cálculos de médias.
+Repositório dedicado aos meus estudos e à minha evolução no desenvolvimento com **Java**.
 
-## 📖 Sobre o projeto
+Aqui registro exercícios, práticas e conceitos aprendidos durante minha jornada de estudos, acompanhando minha evolução desde os fundamentos da linguagem até conceitos mais avançados.
 
-O programa utiliza a classe `Scanner` para receber informações digitadas pelo usuário.
+> 🚧 Repositório em desenvolvimento — novos conteúdos e exercícios serão adicionados conforme avanço nos estudos.
 
-A partir desses dados, são realizadas operações matemáticas e cálculos de médias, permitindo praticar conceitos fundamentais da linguagem Java.
+---
 
-## 🧠 Conceitos utilizados
+## 🎯 Objetivo
 
-* Linguagem Java
-* Classe `Scanner`
-* Entrada de dados pelo terminal
-* Variáveis
-* Tipos numéricos
+O objetivo deste repositório é documentar minha evolução prática em Java, colocando em código os conceitos estudados e criando uma base sólida para o desenvolvimento de aplicações.
+
+Mais do que apenas armazenar exercícios, este repositório funciona como um **histórico da minha aprendizagem**, permitindo acompanhar minha evolução ao longo do tempo.
+
+---
+
+## 📚 Conteúdos estudados
+
+### Fundamentos
+
+* Sintaxe básica do Java
+* Estrutura de uma classe
+* Método `main`
+* Variáveis e constantes
+* Tipos de dados
 * Operadores aritméticos
-* Cálculo de médias
-* Exibição de resultados com `System.out.println`
-* Estrutura do método `main`
+* Entrada e saída de dados
+* `System.out.println`
+* Classe `Scanner`
 
-## ⌨️ Uso do Scanner
+### Estruturas condicionais
 
-A classe `Scanner` permite que o programa receba informações digitadas pelo usuário.
+* `if`
+* `else`
+* `else if`
+* Operadores relacionais
+* Operadores lógicos
+* Estruturas condicionais aninhadas
 
-```java
-import java.util.Scanner;
+### Estruturas de repetição
+
+* `while`
+* `for`
+* Controle de repetição
+* Contadores e acumuladores
+* Condições de parada
+
+### Métodos e funções
+
+* Criação de métodos
+* Parâmetros
+* Retorno de valores
+* Organização e reutilização de código
+
+---
+
+## 🗂️ Organização
+
+Os exercícios estão organizados dentro da estrutura padrão de um projeto Maven:
+
+```text
+src/
+└── main/
+    └── java/
+        └── org/
+            └── example/
+                ├── Scanner_SC.java
+                ├── Funcoes_Matematicas.java
+                ├── funcoes_if.java
+                ├── lacos_de_repeticao_while.java
+                └── lacos_de_repeticao_FOR.java
 ```
 
-Exemplo de criação do objeto:
+Além dos códigos, o repositório contém materiais e listas de exercícios utilizados durante os estudos.
 
-```java
-Scanner scanner = new Scanner(System.in);
-```
+---
 
-Exemplo de leitura de um número:
+## 🛠️ Tecnologias e ferramentas
 
-```java
-double nota = scanner.nextDouble();
-```
+* **Java**
+* **Maven**
+* **IntelliJ IDEA**
+* **Git**
+* **GitHub**
 
-Ao final do programa, o objeto pode ser fechado:
+---
 
-```java
-scanner.close();
-```
+## 📈 Evolução
 
-## 🧮 Cálculo de média
+A ideia deste repositório é manter um registro contínuo da evolução.
 
-A média aritmética é calculada somando os valores e dividindo o resultado pela quantidade de valores utilizados.
+Os primeiros exercícios trabalham conceitos básicos, como entrada de dados, variáveis e operações matemáticas. Conforme os estudos avançam, os exercícios passam a envolver estruturas condicionais, métodos e estruturas de repetição.
 
-Exemplo:
+O repositório continuará sendo atualizado conforme novos conceitos forem estudados e aplicados.
 
-```java
-double media = (nota1 + nota2 + nota3) / 3;
-```
+---
 
-O resultado pode ser exibido da seguinte forma:
+## 🎓 Contexto
 
-```java
-System.out.println("Média: " + media);
-```
+Este repositório faz parte da minha formação em **Tecnologia em Sistemas para Internet** e dos meus estudos complementares em desenvolvimento de software.
 
-## ⚙️ Funcionamento geral
+Estou utilizando a prática constante de programação para transformar os conceitos estudados em código e desenvolver, gradualmente, melhores práticas de desenvolvimento.
 
-O programa segue este fluxo:
-
-1. Inicia a execução.
-2. Cria um objeto da classe `Scanner`.
-3. Solicita os dados ao usuário.
-4. Armazena os valores em variáveis.
-5. Realiza os cálculos.
-6. Exibe o resultado no terminal.
-7. Fecha o `Scanner`.
-8. Encerra o programa.
-
-## ▶️ Como executar
-
-### Pela IDE
-
-O projeto pode ser executado utilizando uma IDE como:
-
-* IntelliJ IDEA
-* Eclipse
-* Visual Studio Code
-
-Abra o projeto, localize a classe que possui o método `main` e execute o programa.
-
-### Pelo terminal
-
-Compile o arquivo:
-
-```bash
-javac NomeDaClasse.java
-```
-
-Execute o programa:
-
-```bash
-java NomeDaClasse
-```
-
-Substitua `NomeDaClasse` pelo nome da classe principal do projeto.
-
-## 🎯 Objetivo de aprendizado
-
-Este projeto foi criado para praticar os primeiros conceitos da linguagem Java, principalmente:
-
-* Leitura de dados;
-* Manipulação de variáveis;
-* Operações matemáticas;
-* Cálculo de médias;
-* Interação com o usuário pelo terminal.
+---
 
 ## 👨‍💻 Autor
 
 **Frederico de Oliveira Brigido**
 
-Projeto desenvolvido durante os estudos iniciais de programação em Java.
+Estudante de Tecnologia em Sistemas para Internet e desenvolvedor em formação, com foco em desenvolvimento de software.
+
+Este repositório representa parte da minha jornada de aprendizado em Java.
+
+---
+
+⭐ Este repositório está em constante evolução.
