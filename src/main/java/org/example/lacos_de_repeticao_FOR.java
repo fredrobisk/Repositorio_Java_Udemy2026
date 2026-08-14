@@ -4,6 +4,34 @@ import java.util.Scanner;
 
 public class lacos_de_repeticao_FOR{
 
+
+    public static void exercicio6(){
+        int n;
+
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+
+        for(int i = 1; i <= n; i++){
+            if(n % i == 0){
+                System.out.println(i);
+            }
+        }
+    }
+
+        public static void exercicio5(){
+        int n,fatorial = 1;
+
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+           fatorial = fatorial * i;
+        }
+
+        System.out.println("numero fartorado "+ fatorial);
+    }
+
+
     public static void exercicio3(){
         int N;
         double a,b,c,media;
@@ -87,6 +115,7 @@ public class lacos_de_repeticao_FOR{
         //exercicio1();
         //exercicio2();
         //exercicio3();
-
+        //exercicio5();
+         exercicio6();
     }
 }
