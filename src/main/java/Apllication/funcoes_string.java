@@ -1,4 +1,4 @@
-package org.example;
+package Apllication;
 
 public class funcoes_string {
     public static void main(String[] args) {
