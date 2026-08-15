@@ -1,4 +1,4 @@
-package Apllication;
+package exercicios_iniciais_de_programacao;
 
 public class funcoes_string {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Apllication;
+package exercicios_iniciais_de_programacao;
 
 import java.util.Scanner;
 
