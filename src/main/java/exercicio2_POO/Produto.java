@@ -31,6 +31,11 @@ public class Produto {
     }
 
     public String toString(){
-        return nome;
+        return nome
+                +", $ "
+                +preco+
+                ", " +quantidade
+                +" units, Total: $ "
+                +preco*quantidade;
     }
 }
