@@ -33,7 +33,7 @@ public class Produto {
     public String toString(){
         return nome
                 +", $ "
-                +preco+
+                +String.format("%.2f",preco)+
                 ", " +quantidade
                 +" units, Total: $ "
                 +preco*quantidade;
