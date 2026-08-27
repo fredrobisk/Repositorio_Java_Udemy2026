@@ -29,4 +29,8 @@ public class Produto {
         double total = preco * quantidade;
         System.out.printf("o valor final de quatindade no estoque eh: R$%.2f", total);
     }
+
+    public String toString(){
+        return nome;
+    }
 }
