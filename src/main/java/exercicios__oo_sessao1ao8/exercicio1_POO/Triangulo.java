@@ -1,4 +1,4 @@
-package exercicio1_POO;
+package exercicios__oo_sessao1ao8.exercicio1_POO;
 
 public class Triangulo {
 

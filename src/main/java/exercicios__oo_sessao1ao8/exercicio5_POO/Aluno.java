@@ -1,4 +1,4 @@
-package exercicio5_POO;
+package exercicios__oo_sessao1ao8.exercicio5_POO;
 
 public class Aluno {
     public String nome;

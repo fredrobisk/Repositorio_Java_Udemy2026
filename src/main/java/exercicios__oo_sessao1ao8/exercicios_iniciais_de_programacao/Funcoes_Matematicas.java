@@ -1,4 +1,4 @@
-package exercicios_iniciais_de_programacao;
+package exercicios__oo_sessao1ao8.exercicios_iniciais_de_programacao;
 
 public class Funcoes_Matematicas {
     public static void main(String[] args) {

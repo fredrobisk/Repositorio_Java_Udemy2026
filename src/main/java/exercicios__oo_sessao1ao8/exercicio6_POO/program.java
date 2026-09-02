@@ -1,4 +1,4 @@
-package exercicio6_POO;
+package exercicios__oo_sessao1ao8.exercicio6_POO;
 
 import java.util.Scanner;
 

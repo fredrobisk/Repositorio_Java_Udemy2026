@@ -1,4 +1,4 @@
-package exercicio2_POO;
+package exercicios__oo_sessao1ao8.exercicio2_POO;
 
 public class Produto {
 

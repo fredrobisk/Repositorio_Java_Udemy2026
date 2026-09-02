@@ -1,4 +1,4 @@
-package exercicio3_POO;
+package exercicios__oo_sessao1ao8.exercicio3_POO;
 
 public class retangulo {
     public double altura;
